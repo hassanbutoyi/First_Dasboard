@@ -1,0 +1,206 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0px;
+	padding: 0px;
+	text-transform: capitalize;
+
+
+}
+input{
+	outline: none;
+	border: none;
+}
+button{
+	outline: none;
+	border: none;
+}
+img{
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+nav{
+	width: 100%;
+	display: flex;
+	background: #F8F8F8;
+	height: 70px;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0px 40px;
+	border-bottom: 1px solid #E8E8E8;
+}
+#container{
+	display: flex;
+	width: 100%;
+}
+.sideone{
+	display: flex;
+	width: 35%;
+	height: 100%;
+	justify-content: space-between;
+	align-items: center;
+}
+.head_one{
+	width: 8%;
+	height: 30px;
+	font-size: 60px;
+	text-transform: capitalize;
+	font-family: sans-serif;
+	margin-top: -35px;
+}
+.input_one{
+	height: 40px;
+	width: 60%;
+	background:#EDEDED;
+
+}
+.input_one input{
+	width: 100%;
+	height: 100%;
+	padding: 7px;
+	background: transparent;
+	outline: none;
+	border: none;
+
+}
+.next_input{
+	width: 14%;
+	height: 35px;
+	
+	text-align: center;
+	display: flex;
+}
+.next_input button{
+	width: 100%;
+	height: 100%;
+	background:#2A3548;
+	color: #ffffff;
+	font-size: 17px;
+
+}
+.side_two{
+	
+	width: 20%;
+	height: 100%;
+	gap: 30px;
+	align-self: flex-end;
+}
+.profile_notification{
+	width: 90%;
+	height: 90%;
+	display: flex;
+	gap: 15px;
+	padding-top: 10px;
+	align-items: center;
+	font-size: 18px;
+
+}
+
+
+.small_profile{
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	align-items: center;
+
+}
+.small_profile img{
+	border-radius: 50%;
+}
+#x_left{
+	width: 15%;
+	height: 100vh;
+	background: #F8F8F8;
+	border-right: 1px solid #E8E8E8;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
+	gap: 40px;
+}
+.analytic{
+	display: flex;
+	padding-left: 10px;
+	font-size: 20px;
+	text-align: center;
+	width: 70%;
+}
+.analytic i{
+	color:black ;
+	text-align: center;
+
+}
+.jj{
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+.analytic a{
+	text-decoration: none;
+	color: black;
+}
+#axis_center{
+	display: flex;
+	width: 70%;
+	padding: 20px 10px;
+	
+	gap: 20px;
+
+
+}
+.one_axis{
+	width: 99%;
+	display: flex;
+	justify-content: space-between;
+	
+}
+.trucks{
+	display: flex;
+	flex-direction: column;
+	width: 60%;
+	
+	gap: 2px;
+}
+.line{
+	display: flex;
+	flex-direction: column;
+	background: red;
+}
+.fff{
+	display: flex;
+	justify-content: space-between;
+	width: 90%;
+}
+.mmm{
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+}
+.qqqq{
+	display: flex;
+	flex-direction: column;
+	width: 22%;
+	line-height: 10px;
+	font-size: 18;
+	
+}
+.iiii{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap:9px;
+	font-size: 18px;
+	text-transform:600;
+}
+.iiii i{
+	font-size: 18px;
+	color: #E3B221;
+	font-weight: 600;
+}
+.fff p{
+	color:#E3B221;
+	font-weight: 600;
+}
+
