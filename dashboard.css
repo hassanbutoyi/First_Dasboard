@@ -144,9 +144,11 @@ nav{
 #axis_center{
 	display: flex;
 	width: 70%;
+	flex-direction: column;
 	padding: 20px 10px;
 	
 	gap: 20px;
+	
 
 
 }
@@ -160,18 +162,22 @@ nav{
 	display: flex;
 	flex-direction: column;
 	width: 60%;
-	
+	border-radius: 7px;
 	gap: 2px;
+	height: auto;
+	background: #F0F0F0;
+	padding-left: 17px;
 }
 .line{
 	display: flex;
 	flex-direction: column;
-	background: red;
+	
 }
 .fff{
 	display: flex;
 	justify-content: space-between;
 	width: 90%;
+
 }
 .mmm{
 	display: flex;
@@ -182,25 +188,112 @@ nav{
 	display: flex;
 	flex-direction: column;
 	width: 22%;
-	line-height: 10px;
+	line-height: 1px;
 	font-size: 18;
+	gap:1px;
 	
+	
+}
+.xy{
+	display: flex;
+	flex-direction: column;
+	width: 22%;
+	line-height: 18px;
+	font-size: 18;
 }
 .iiii{
 	display: flex;
 	flex-direction: row;
 	align-items: center;
-	gap:9px;
+	gap:7px;
 	font-size: 18px;
 	text-transform:600;
 }
 .iiii i{
 	font-size: 18px;
 	color: #E3B221;
-	font-weight: 600;
-}
+	}
 .fff p{
 	color:#E3B221;
-	font-weight: 600;
+	
+}
+.line{
+	width: 34%;
+	display: flex;
+	flex-direction: column;
+	background: #F0F0F0;
+	height: auto;
+	border-radius: 7px;
+	gap: 20px;
+}
+.graphy{
+	width: 80%;
+	height: 70%;
+	margin: 0px auto;
+	padding-top: 30px;
+	
+	
+}
+#myChart.graphy{
+	width: 100%;
+	height: 100%;
+	padding-top: 20px;
+}
+.dollar{
+	display: flex;
+	justify-content: space-between;
+	width: 90%;
+	margin: 0px auto;
+	
+}
+.dollar h1 i{
+	color: orange;
+}
+.opop i{
+	color: #2A3548;
+}
+.iiui i{
+	color: ;
+}
+.dollar h2{
+	font-size: 20px;
+}
+#my_leftside{
+	display: flex;
+	width: 20%;
+	background: #F0F0F0;
+	float: right;
+	border-left: 1px solid #E8E8E8;
+
+}
+.next_graphy{
+	display: flex;
+	display: flex;
+	flex-direction: column;
+	width: 60%;
+	border-radius: 7px;
+	gap: 2px;
+	height: 50%;
+	background: #F0F0F0;
+	padding-left: 17px;
+}
+.down_next{
+
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+}
+.down_next .trucks{
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	border-radius: 7px;
+	gap: 2px;
+	height: auto;
+	background: #F0F0F0;
+	padding-left: 17px;
+
 }
 
