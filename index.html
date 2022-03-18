@@ -8,6 +8,64 @@
 	</title>
 	<link rel="stylesheet" type="text/css" href="dashboard.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['bar']});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['', ''],
+          ['seeds',  7],
+          ['Animal',  5],
+          ['Furniture',  2.5],
+          ['Cookies', 4],
+          ['Mandarina', 1],
+          ['timber',5],
+          ['driks',5]
+        ]);
+
+        var options = {
+          chart: {
+            title: '',
+            subtitle: ' ',
+          }
+        };
+
+        var chart = new google.charts.Bar(document.getElementById('columnchart_material'));
+
+        chart.draw(data, google.charts.Bar.convertOptions(options));
+      }
+    </script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['bar']});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['', ''],
+          ['seeds',  7],
+          ['Animal',  5],
+          ['Furniture',  2.5],
+          ['Cookies', 4],
+          ['Mandarina', 1],
+          ['timber',5],
+          ['driks',5]
+        ]);
+
+        var options = {
+          chart: {
+            title: '',
+            subtitle: ' ',
+          }
+        };
+
+        var chart = new google.charts.Bar(document.getElementById('columnchart_material'));
+
+        chart.draw(data, google.charts.Bar.convertOptions(options));
+      }
+    </script>
 </head>
 <body>
 	<nav>
@@ -75,7 +133,7 @@
 	 				<div class="xy">
 	 					<p class="iiii">Hassan Butoyi</p>
 	 					<p class="iiii">Issa DJamar</p>
-	 					<p class="iiii">Hussein </p>
+	 					<p class="iiii">Hussein bukuru </p>
 	 					<p class="iiii">Ayman Mucyo</p>
 	 				</div>
 	 				<div class="xy">
@@ -108,41 +166,43 @@
 
 	 		
 	 	</div>
+	 	<div class="category"><h1>per category</h1></div>
 	 	<div id="down_next">
 	 		
-	 	<div class="trucks">
-	 			<div class="fff">
-	 				<h1>recent trucks</h1>
-	 				<p>view details</p>
-	 			</div>
-	 			<div class="mmm">
-	 				<div class="qqqq">
-	 					<p class="iiii"><i class="fa fa-car" aria-hidden="false"></i>RAB 355 J</p>
-	 					<p class="iiii"><i class="fa fa-car" aria-hidden="false"></i>RAB 355 J</p>
-	 					<p class="iiii"><i class="fa fa-car" aria-hidden="false"></i>RAB 355 J</p>
-	 					<p class="iiii"><i class="fa fa-car" aria-hidden="false"></i>RAB 355 J</p>
-	 				</div>
-	 				<div class="xy">
-	 					<p class="iiii">Hassan Butoyi</p>
-	 					<p class="iiii">Issa DJamar</p>
-	 					<p class="iiii">Hussein </p>
-	 					<p class="iiii">Ayman Mucyo</p>
-	 				</div>
-	 				<div class="xy">
-	 					<p class="iiii"> 7 Tns</p>
-	 					<p class="iiii">4 tns</p>
-	 					<p class="iiii">5tns</p>
-	 					<p class="iiii">8tns</p>
-	 				</div>
-	 				<div class="xy">
-	 					<p class="iiii">234 hrs</p>
-	 					<p class="iiii">234 hrs</p>
-	 					<p class="iiii">234 hrs</p>
-	 					<p class="iiii">234 hrs</p>
-	 					
-	 				</div>
-	 				
-	 			</div>
+	 	<div class="trucks_one">
+	 			
+	 			 <div id="columnchart_material" style="width: 400px; height: 200px;"></div>
+	 			 <div id="big_view">
+	 			 	<div id="tails">
+	 			 		<h1>$1200</h1>
+	 			 		<p>view details</p>
+	 			 	</div>
+	 			 	<div class="trtrt">
+	 			 		<ul class="exe">
+	 			 			<li>
+	 			 				<i class="fa fa-university" aria-hidden="true"></i>seeds
+	 			 			</li>
+	 			 			<li>
+	 			 				<i class="fa fa-university" aria-hidden="true"></i>drinks
+	 			 			</li>
+	 			 			<li>
+	 			 				<i class="fa fa-university" aria-hidden="true"></i>timber
+	 			 			</li>
+	 			 		</ul>
+	 			 		<ol>
+	 			 			<li>
+	 			 				$340
+	 			 			</li>
+	 			 			<li>
+	 			 				$340
+	 			 			</li>
+	 			 			<li>
+	 			 				$440
+	 			 			</li>
+	 			 		</ol>
+	 			 		
+	 			 	</div>
+	 			 </div>
 
 	 		</div>	
 	 	</div>
@@ -152,11 +212,16 @@
 	 </section>
 	 <div id="my_leftside">
 	 			
-	 			
+	 			<div id="top_one_left">
+	 				<h1>$ 300</h1>
+
+	 			</div>
 	 		</div>
 
 </section>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@3.7.1/dist/chart.min.js"></script>
 <script type="text/javascript" src="chart.js"></script>
+<script type="text/javascript" src="chart2.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@3.7.1/dist/chart.min.js"></script>
 </body>
 </html>

@@ -5,6 +5,7 @@ body{
 	margin: 0px;
 	padding: 0px;
 	text-transform: capitalize;
+	font-family: Arial, Helvetica, sans-serif;
 
 
 }
@@ -66,7 +67,7 @@ nav{
 
 }
 .next_input{
-	width: 14%;
+	width: 10%;
 	height: 35px;
 	
 	text-align: center;
@@ -77,7 +78,8 @@ nav{
 	height: 100%;
 	background:#2A3548;
 	color: #ffffff;
-	font-size: 17px;
+	font-size: 13px;
+	border-radius: 4px;
 
 }
 .side_two{
@@ -96,6 +98,9 @@ nav{
 	align-items: center;
 	font-size: 18px;
 
+}
+.profile_notification p{
+	font-size: 16px;
 }
 
 
@@ -118,14 +123,20 @@ nav{
 	flex-direction: column;
 	text-align: center;
 	align-items: center;
-	gap: 40px;
+	gap: 18px;
+	padding-top: 10px;
+}
+#x_left h1{
+	font-weight: 600;
+	font-size: 24px;
 }
 .analytic{
 	display: flex;
 	padding-left: 10px;
-	font-size: 20px;
+	font-size: 16px;
 	text-align: center;
 	width: 70%;
+	font-weight: 500;
 }
 .analytic i{
 	color:black ;
@@ -135,7 +146,7 @@ nav{
 .jj{
 	display: flex;
 	align-items: center;
-	gap: 10px;
+	gap: 14px;
 }
 .analytic a{
 	text-decoration: none;
@@ -183,22 +194,27 @@ nav{
 	display: flex;
 	width: 100%;
 	justify-content: space-between;
+	height: fit-content;
 }
 .qqqq{
 	display: flex;
 	flex-direction: column;
 	width: 22%;
-	line-height: 1px;
+	line-height: 2px;
 	font-size: 18;
-	gap:1px;
-	
-	
+	font-weight: 600;
 }
+.qqqq i{
+	width: 22%;
+	line-height: 2px;
+	font-size: 18;
+}	
+
 .xy{
 	display: flex;
 	flex-direction: column;
 	width: 22%;
-	line-height: 18px;
+	line-height: 3px;
 	font-size: 18;
 }
 .iiii{
@@ -206,7 +222,7 @@ nav{
 	flex-direction: row;
 	align-items: center;
 	gap:7px;
-	font-size: 18px;
+	font-size: 15px;
 	text-transform:600;
 }
 .iiii i{
@@ -264,6 +280,8 @@ nav{
 	background: #F0F0F0;
 	float: right;
 	border-left: 1px solid #E8E8E8;
+	justify-content: center;
+	padding-top: 20px;
 
 }
 .next_graphy{
@@ -288,7 +306,7 @@ nav{
 .down_next .trucks{
 	display: flex;
 	flex-direction: column;
-	width: 50%;
+	width: 60%;
 	border-radius: 7px;
 	gap: 2px;
 	height: auto;
@@ -296,4 +314,96 @@ nav{
 	padding-left: 17px;
 
 }
+#top_x_div{
+	width: 100%;
+	height: 100%;
+	
 
+}
+.trucks_one{
+	display: flex;
+	flex-direction: row;
+	width: 99%;
+	border-radius: 7px;
+	gap: 2px;
+	justify-content: space-between;
+	height: auto;
+	background: #F0F0F0;
+	padding-left: 17px;
+	padding:15px  10px;
+}
+#top_x_div{
+	width: 120px;
+	height: fit-content;
+
+}
+.category{
+	height: fit-content;
+}
+.category h1{
+	
+	font-size: 28px;
+	font-weight: 600;
+	color: black;
+	text-transform: capitalize;
+}
+#tails{
+	width: 98%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 0px 20px;
+	background: white;
+	height: auto;
+	margin: 0px auto;
+	align-items: center;
+}
+#tails h1{
+	font-size: 26px;
+	color: #E3B221;
+}
+#tails p{
+	color:#E3B221 ;
+	font-size: 18px;
+}
+#big_view{
+	
+	width: 40%;
+	display: flex;
+	flex-direction: column;
+	background: white;
+	border-radius: 20px;
+	padding: 3px 3px;
+}
+.trtrt{
+	display: flex;
+	
+
+}
+.trtrt li{
+	display: block;
+	padding: 3px;
+	font-size: 14px;
+}
+.exe{
+	font-size: 14px;
+	color: grey;
+}
+.exe i{
+	padding-right: 10px;
+	color: grey;
+
+}
+#top_one_left{
+	width: 90%;
+	display: flex;
+	flex-direction: column;
+	background: #2A3548;
+	border-radius: 6px;
+	height: fit-content;
+
+}
+#top_one_left h1{
+	color: orange;
+	font-size: 33px;
+}
